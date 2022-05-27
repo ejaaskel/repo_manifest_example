@@ -1,0 +1,17 @@
+<manifest>
+  <remote fetch="git://git.yoctoproject.org/"
+          name="yoctoproject" />
+
+  <remote fetch="https://github.com/"
+          name="github" />
+
+  <project name="poky"
+           path="poky"
+           remote="yoctoproject"
+           revision="232b5533de22bba7a747f73f684d609e217531f9" />
+
+  <project name="ejaaskel/meta-course"
+           path="meta-course"
+           remote="github"
+           revision="master" />
+</manifest>
